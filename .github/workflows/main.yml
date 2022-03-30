@@ -44,6 +44,6 @@ jobs:
           echo 7. who is running this script?
           whoami
           echo 8. how is the disc laid out?
-          disc
+          df
           echo 9. what environment variables are available?
           env
