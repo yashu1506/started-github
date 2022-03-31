@@ -13,4 +13,4 @@ jobs:
       - name: Run a multi-line script
         run: |
             echo "Starting the task"
-            rsync -zhrv ./* ec2-user@13.126.88.99:/home/ec2-user/actions-runner/work/started-github/started-github/yashu
+            rsync -zhrv ./* ubuntu@65.2.74.112:/home/ubuntu/
