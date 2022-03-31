@@ -15,5 +15,7 @@ jobs:
             echo Nothing to see in multi line script
             echo what is in that folder?
             ls -a
+            echo here is pwd
+            pwd
             mkdir yashu
             touch file1.txt
