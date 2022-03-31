@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run a one-line script
-        run: echo "On Runner instance"
+        run: sh ./startedgithub.sh
       - name: Run a multi-line script
         run: |
             echo "Starting the task"
