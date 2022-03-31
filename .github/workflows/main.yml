@@ -15,3 +15,5 @@ jobs:
             echo Nothing to see in multi line script
             echo what is in that folder?
             ls -a
+            mkdir yashu
+            touch file1.txt
