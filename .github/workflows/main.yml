@@ -19,3 +19,4 @@ jobs:
             pwd
             mkdir yashu
             touch file1.txt
+            echo "Yashu is here" >> file1.txt
