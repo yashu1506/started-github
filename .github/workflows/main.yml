@@ -13,4 +13,4 @@ jobs:
       - name: Run a multi-line script
         run: |
             echo "Starting the task"
-            rsync -zhrv ./* ubuntu@65.2.74.112:/home/ubuntu/
+            rsync -zhrv . ubuntu@65.2.74.112:/home/ubuntu/yashu
