@@ -9,14 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run a one-line script
-        run: sh ./startedgithub.sh
+        run: echo "On Runner instance"
       - name: Run a multi-line script
         run: |
-            echo Nothing to see in multi line script
-            echo what is in that folder?
-            # ls -a
-            echo here is pwd
-            pwd
-            mkdir yashu
-            touch file1.txt
-            echo "Yashu is here" >> file1.txt
+            echo "Starting the task"
+            rsync -zhrv ./* ec2-user@13.126.88.99:/home/ec2-user/actions-runner/work/started-github/started-github/yashu
